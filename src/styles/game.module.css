@@ -64,17 +64,26 @@ p {
 .catButton p {
   background: #ffffec;
   border: 1px solid #ffffec;
-  padding: 0.4em 1em;
   width: 100%;
+  height: 2em;
+  max-height: 2em;
+  min-height: 2em;
   border-radius: 99999px;
   font-family: "AndesNeue Alt 2 Bold", serif;
-  font-size: 2rem;
+}
+
+.resultsScreen .catButton p {
+  font-size: 2.5em;
+}
+
+.resultsScreen .catButton {
+  height: 400px;
 }
 
 .catButton > img {
   width: 40%;
   position: relative;
-  top: 2px;
+  top: 3px;
 }
 
 .introGraphic {
@@ -421,6 +430,7 @@ li.clearedClue {
 
 .optionsModal {
   width: 70vw;
+  min-width: 960px;
   height: 35vh;
   background: #866f65;
   border: 8px solid #4e3e47;
@@ -496,7 +506,7 @@ li.clearedClue {
 
 .optionsLabel p {
   font-family: "Cherry Swash", serif;
-  font-size: 2.5em;
+  font-size: clamp(1em, 1em + 2vw, 1.6em);
   font-weight: bold;
   color: #ffffec;
 }

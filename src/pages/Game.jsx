@@ -829,18 +829,30 @@ export default function Game() {
                 />
               </section>
             </section>
-            <section style={{ display: "flex", gap: "5em" }}>
+            <section
+              style={{ display: "flex", gap: "5em", alignItems: "center" }}
+            >
               <Link to="/">
                 <CatButton
                   onClick={null}
                   text={"Back to Home"}
-                  style={{ width: "30em", height: "8em" }}
+                  style={{
+                    width: "20em",
+                    height: 200,
+                    minHeight: 200,
+                    maxHeight: 200,
+                  }}
                 />
               </Link>
               <CatButton
                 onClick={downloadImage}
                 text={"Share"}
-                style={{ width: "25em", height: "8em" }}
+                style={{
+                  width: "20em",
+                  height: 200,
+                  minHeight: 200,
+                  maxHeight: 200,
+                }}
               />
             </section>
           </section>
