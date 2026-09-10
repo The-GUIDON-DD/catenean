@@ -688,7 +688,7 @@ export default function Game() {
           <InstructionsModal closeInstructionsModal={closeInstructionsModal} />
         )}
       </section>
-      {(true || showResultsScreen) && (
+      {showResultsScreen && (
         <>
           <section id="resultsScreenshot" className={`${styles.resultsScreen}`}>
             <h1>You’ve found all the cats—well done!</h1>
