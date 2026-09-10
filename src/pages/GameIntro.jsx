@@ -22,9 +22,10 @@ function CatButton() {
         whileHover={{ scale: [1, 1.1] }}
         onMouseEnter={boings[Math.floor(Math.random() * 3)]}
         transition={bounceTransition}
+        style={{ width: "15em" }}
       >
         <img src={ears} />
-        <p>Start Game</p>
+        <p style={{ fontSize: "2em", lineHeight: "1.5em" }}>Start Game</p>
       </motion.div>
     </Link>
   );

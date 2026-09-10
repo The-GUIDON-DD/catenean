@@ -70,6 +70,7 @@ p {
   min-height: 2em;
   border-radius: 99999px;
   font-family: "AndesNeue Alt 2 Bold", serif;
+  padding: 2%;
 }
 
 .resultsScreen .catButton p {
