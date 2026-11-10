@@ -160,7 +160,8 @@ p {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 2% 5%;
+  padding: 8% 8%;
+  padding-top: 4%;
   gap: 2vw;
 }
 
@@ -169,7 +170,7 @@ p {
   height: 100%;
   width: 100%;
   grid-template-columns: 3em repeat(5, 1fr);
-  grid-template-rows: 15vh 4em repeat(5, 1fr);
+  grid-template-rows: 13% 3em repeat(5, 1fr);
   place-items: center;
 }
 
@@ -192,7 +193,7 @@ p {
 
 .picFrame p {
   font-weight: bold;
-  font-size: 5em;
+  font-size: 3em;
   padding: 0;
   margin: 0;
   font-family: "Solway";
@@ -220,7 +221,7 @@ p {
 }
 
 .gameTable h1 {
-  font-size: 1.5em;
+  font-size: 1.1em;
   color: white;
 }
 
@@ -243,7 +244,7 @@ p {
 }
 
 .catCell img {
-  height: 70%;
+  height: 60%;
 }
 
 .catCellHover {
@@ -254,6 +255,7 @@ p {
   background: rgba(58, 156, 140, 0.8);
   opacity: 0;
   transition: opacity ease-in-out 150ms;
+  padding: 0 2%;
 }
 
 .catCellHover:hover {
@@ -265,7 +267,7 @@ p {
   text-align: center;
   color: white;
   font-family: "AndesNeue Alt 2 Bold", serif;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .menuSide {
@@ -273,7 +275,7 @@ p {
   width: 42vw;
   display: flex;
   flex-flow: column nowrap;
-  gap: 2em;
+  gap: 1em;
 }
 
 .gameOpts {
@@ -286,7 +288,7 @@ p {
 .timer {
   font-family: "Cherry Swash", sans-serif;
   font-weight: bold;
-  font-size: 3.5em;
+  font-size: 3em;
   width: 2.8em;
 }
 
@@ -303,7 +305,7 @@ p {
 }
 
 .checklist p {
-  font-size: 1.4em;
+  font-size: 1rem;
   font-family: "Rethink Sans", serif;
 }
 
@@ -370,7 +372,7 @@ li.clearedClue {
 }
 
 .instructionBtn {
-  height: 5em;
+  height: 4em;
   background-color: #3b756c;
   position: relative;
   top: 0.2em;
@@ -398,12 +400,12 @@ li.clearedClue {
   font-family: "Solway";
   font-weight: bold;
   font-size: 2.5em;
-  color: #205950;
+  color: #205950 !important;
   transition: all 150ms ease-in-out;
 }
 
 .exitBtn:hover {
-  color: #ffffec;
+  color: #ffffec !important;
   background-color: #205950;
 }
 
@@ -567,7 +569,7 @@ li.clearedClue {
 }
 
 .gameOpts .catButton p {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 @keyframes bob {
