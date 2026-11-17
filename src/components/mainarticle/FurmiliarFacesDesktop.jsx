@@ -382,7 +382,7 @@ const FurmiliarFacesDesktop = () => {
               whileInView={bounceAnimation.whileInView}
               transition={{ ...bounceAnimation.transition, delay: 0.25 }}
               className={styles.bldg}
-              style={{ zIndex: 30 }}
+              style={{ zIndex: 30, height: "32vh" }}
               src={Schmitt}
             />
             <article
@@ -391,9 +391,9 @@ const FurmiliarFacesDesktop = () => {
                 zIndex: 0,
                 transform: "rotate(-10deg)",
                 padding: "2%",
-                width: 400,
-                right: -100,
-                bottom: "2vh",
+                width: "20vw",
+                right: -200,
+                bottom: "-5vh",
                 animation: `3s ease-in-out 500ms infinite alternate-reverse ${styles.swingRightPolaroid}`,
               }}
             >
